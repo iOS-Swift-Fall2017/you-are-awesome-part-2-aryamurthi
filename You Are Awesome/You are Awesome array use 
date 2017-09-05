@@ -1,0 +1,49 @@
+//
+//  ViewController.swift
+//  You Are Awesome
+//
+//  Created by Arya Murthi on 8/28/17.
+//  Copyright © 2017 Arya Murthi. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var reallyCoolLabel: UILabel!
+    
+    
+    
+    //Change label to message output
+    @IBAction func showMessageButton(_ sender: UIButton) {
+       
+        
+        var messages = ["You're aiight.", "I suppose you have a few redeeming qualities.", "I assume you're alive for a reason"]
+
+
+        
+        
+        
+        
+        
+       // if reallyCoolLabel.text == "You are awesome!"{
+            reallyCoolLabel.text = "You are great!"
+            reallyCoolLabel.textColor = UIColor.blue
+       // }
+            
+    //    else {
+    //        reallyCoolLabel.text = "You are awesome!"
+            reallyCoolLabel.textColor = UIColor.red
+     //   }
+   // }
+    
+    
+    
+    }
+    
+    //This code executes when the view controller loads
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
